@@ -1,0 +1,40 @@
+/* --------------------
+
+ 新規登録
+
+--------------------- */
+
+.main-container {
+    width: 530px;
+    min-height: 320px;
+    margin: 80px auto 0 auto;
+    padding: 0 0 60px 0;
+}
+
+.register {
+    background-color: #ffccb2;
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: "Yu Gothic UI";
+    margin: 50px auto 0 auto;
+    padding: 10px 0;
+    width: 530px;
+    list-style: none;
+    border-radius: 18px;
+}
+
+label {
+    text-align: right;
+    margin-right: 10px;
+    width: 150px;
+    float: left;
+}
+
+.register li {
+    margin: 10px;
+}
+
+input#submit {
+    margin: 0 0 0 465px;
+}

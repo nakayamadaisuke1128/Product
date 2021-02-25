@@ -1,0 +1,196 @@
+/* --------------------
+
+ インデックス
+
+--------------------- */
+
+.main-index {
+	margin: 80px 0 0 0;
+	padding: 0 50px 60px 50px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+/* --------------------
+
+ インデックス メイン 左側
+
+--------------------- */
+
+.main-left {
+	text-align: center;
+	margin-right: 30px;
+	width: 360px;
+	margin: 0 90px 0 0;
+	padding: 15px 0;
+	border: 2px dashed #ed6d35;
+	border-radius: 10px;
+}
+
+.main-left ul {
+	font-size: 18px;
+	font-weight: normal;
+	font-family: "Yu Gothic UI";
+	text-align: center;
+	list-style: none;
+	margin: 0 0 15px 0;
+	padding: 0 15px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.main-left li {
+	width: 80px;
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+.main-left li a {
+	color: #666666;
+	text-decoration: none;
+	width: 80px;
+	display: block;
+}
+
+.main-left li a:hover {
+	color: #ffffff;
+	background-color: #ed6d35;
+	transition: 0.3s;
+}
+
+.main-left-title {
+	color: #000000;
+	font-size: 23px;
+	font-weight: bold;
+	font-family: "Yu Gothic UI";
+	text-align: center;
+	border-bottom: 3px double #ff9966;
+	width: 160px;
+	margin: 10px auto 15px auto;
+	padding: 0;
+	background-color: #ffffff;
+	border-radius: 0;
+}
+
+.list {
+	font-size: 20px;
+	font-weight: normal;
+	font-family: "Yu Gothic UI";
+	background: url(../images/logo_icon/ichiran.png) no-repeat 14px 8px;
+	width: 180px;
+	height: 35px;
+	margin: 25px 0 3px 0;
+	padding: 10px 0 0 45px;
+}
+
+.list a {
+	color: #ed6d35;
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+}
+
+.list a::after {
+	content: '';
+	position: absolute;
+	bottom: 2px;
+	left: 0;
+	width: 100%;
+	height: 0.8px;
+	background: #ed6d35;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s;
+}
+
+.list a:hover::after {
+	bottom: -1px;
+	opacity: 1;
+	visibility: visible;
+}
+
+.vegetable {
+	color: #000000;
+	font-size: 23px;
+	font-weight: normal;
+	font-family: "Yu Gothic UI";
+	background: url(../images/logo_icon/yasai.png) no-repeat 10px 0;
+	width: 140px;
+	height: 35px;
+	margin: 25px 0 3px 0;
+	padding: 7px 0 0 20px;
+}
+
+.meat {
+	color: #000000;
+	font-size: 23px;
+	font-weight: normal;
+	font-family: "Yu Gothic UI";
+	background: url(../images/logo_icon/niku.png) no-repeat 10px 0;
+	width: 140px;
+	height: 35px;
+	margin: 20px 0 3px 0;
+	padding: 7px 0 0 15px;
+}
+
+.fish {
+	color: #000000;
+	font-size: 23px;
+	font-weight: normal;
+	font-family: "Yu Gothic UI";
+	background: url(../images/logo_icon/sakana.png) no-repeat 10px 0;
+	width: 140px;
+	height: 35px;
+	margin: 20px 0 3px 0;
+	padding: 7px 0 0 20px;
+}
+
+
+/* --------------------
+
+ インデックス メイン 右側
+
+--------------------- */
+
+.main-right {
+	padding: 0;
+	max-width: 1080px;
+}
+
+.main-right-main {
+	margin: 0 0 100px 0;
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.cook {
+	font-size: 20px;
+	font-weight: normal;
+	font-family: "Yu Gothic UI";
+	margin: 30px 20px 0 0;
+	width: 250px;
+	min-height: 250px;
+	position: relative;
+}
+
+.cook p {
+	color: #ed6d35;
+	padding: 170px 0 0 0;
+}
+
+.cook a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 230px;
+}
+
+.cook a:hover {
+	background-color: #ffffff;
+	opacity: 0.5;
+	transition: 0.2s;
+}

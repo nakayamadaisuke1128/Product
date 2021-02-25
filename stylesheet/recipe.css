@@ -1,0 +1,137 @@
+/* --------------------
+
+ レシピ 詳細ページ
+
+--------------------- */
+
+.recipe-title {
+	color: #000000;
+	font-size: 28px;
+	font-weight: bold;
+	font-family: "Yu Gothic UI";
+	background-color: #ffffff;
+	width: 600px;
+	height: 35px;
+	margin: 0 0 50px 0;
+	padding: 0 0 2px 18px;
+	border-bottom: 1px solid #ed6d35;
+	border-left: 10px solid #ed6d35;
+	border-radius: 0;
+}
+
+.recipe-main {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.recipe-right {
+	width: 350px;
+	padding: 0;
+}
+
+.recipe-right dl {
+	width: 350px;
+	color: #000000;
+	font-size: 100%;
+	font-weight: normal;
+	font-family: "Yu Gothic UI";
+	margin: 8px 0;
+	border-bottom: 1px solid #cccccc;
+}
+
+.recipe-right dt {
+	float: left;
+}
+
+.recipe-right dd {
+	text-align: right;
+}
+
+.recipe-bottom {
+	min-height: 500px;
+	margin: 70px 0 0 0;
+}
+
+.breadcrumb {
+	color: #999999;
+	font-size: 16px;
+	font-weight: nolmal;
+	font-family: "Yu Gothic UI";
+	margin: -20px 0 50px 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+
+.breadcrumb li::after {
+	content: "＞";
+	margin: 0 10px;
+}
+
+.breadcrumb li:last-child:after {
+	content: "";
+}
+
+.breadcrumb li a {
+	color: #ff9966;
+	text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+	color: #666666;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.recipe-procedure {
+	width: 1080px;
+	margin: 0 0 40px 0;
+	display: flex;
+	align-items: flex-start;
+}
+
+.number {
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: "Century Gothic";
+	text-align: center;
+	line-height: 50px;
+	background-color: #ed6d35;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.subheading {
+	color: #000000;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: "Yu Gothic UI";
+	width: 200px;
+	margin: 18px 0;
+	height: 32px;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+.subheading::before {
+	content: "　";
+	background: url(../images/sozai/subheading.jpeg) 0 100% no-repeat;
+	width: 32px;
+	height: 32px;
+}
+
+p {
+	color: #000000;
+	font-size: 100%;
+	font-weight: normal;
+	font-family: "Yu Gothic UI";
+	padding: 3px 0 0 5px;
+	letter-spacing: 1px;
+	width: 800px;
+}

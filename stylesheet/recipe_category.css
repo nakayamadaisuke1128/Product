@@ -1,0 +1,81 @@
+/* --------------------
+
+ レシピ カテゴリー
+
+--------------------- */
+
+.category-main {
+	margin-bottom: 120px;
+	padding: 0;
+	max-width: 1080px;
+	min-height: 1000px;
+}
+
+.title {
+	width: 450px;
+}
+
+.category-article {
+	width: 1080px;
+	height: 133px;
+	margin: 40px 0 60px 0;
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.category-article::after {
+	content: "";
+	width: 920px;
+	margin-top: 20px;
+	border-bottom: 1px solid #999999;
+}
+
+.category-procedure {
+	padding-left: 20px;
+	width: 700px;
+	height: 133px;
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.category-procedure p {
+	color: #000000;
+	font-size: 100%;
+	font-weight: normal;
+	font-family: "Yu Gothic UI";
+	margin: 0 0 5px 0;
+	padding: 0;
+	letter-spacing: 1px;
+	width: 700px;
+}
+
+.material {
+	color: #999999;
+	padding-top: 10px;
+	display: block;
+}
+
+.material::before {
+	content: "主な材料：";
+}
+
+.category-procedure a {
+	color: #ed6d35;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: "Yu Gothic UI";
+	text-decoration: none;
+}
+
+.category-procedure a:hover {
+	color: #ff9966;
+	transition: 0.3s;
+}
+
+.img:hover {
+	background-color: #ffffff;
+	opacity: 0.5;
+	transition: 0.2s;
+}
